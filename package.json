@@ -1,0 +1,57 @@
+{
+  "name": "glob-keys",
+  "description": "Returns an array of property names exposed from a glob of javascript modules. Useful for linting, documentation, table of contents, etc.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/glob-keys",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/glob-keys",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/glob-keys/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "matched": "^0.4.1",
+    "method-names": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "glob",
+    "keys"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "method-names",
+        "matched"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
