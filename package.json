@@ -1,6 +1,6 @@
 {
   "name": "glob-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Returns an array of property names exposed from a glob of javascript modules. Useful for linting, documentation, table of contents, etc.",
   "homepage": "https://github.com/jonschlinkert/glob-keys",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
