@@ -1,7 +1,7 @@
 {
   "name": "glob-keys",
-  "description": "Returns an array of property names exposed from a glob of javascript modules. Useful for linting, documentation, table of contents, etc.",
   "version": "0.1.0",
+  "description": "Returns an array of property names exposed from a glob of javascript modules. Useful for linting, documentation, table of contents, etc.",
   "homepage": "https://github.com/jonschlinkert/glob-keys",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/glob-keys",
@@ -43,8 +43,8 @@
     ],
     "related": {
       "list": [
-        "method-names",
-        "matched"
+        "matched",
+        "method-names"
       ]
     },
     "reflinks": [
